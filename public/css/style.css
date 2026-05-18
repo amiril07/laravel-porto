@@ -1,0 +1,119 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: #3B7597;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.navbar a:hover {
+    color: #093C5D;
+}
+.container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home {
+    margin-top: 100px;
+    color: #3B7597;
+    font-size: 60px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.desc {
+    margin-top: 20px;
+    color: #093C5D;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nama {
+    margin: 0px;
+    color: #3B7597;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.jurusan {
+    margin: 0px;
+    color: #093C5D;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.hobi {
+    margin: 0px;
+    color: #093C5D;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.nim {
+    margin: 0px;
+    color: #093C5D;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.kelas {
+    margin: 0px;
+    color: #093C5D;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.foto {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.foto img {
+    border-radius: 30px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-link {
+    color: #093C5D;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.contact-link:hover {
+    color: #3B7597;
+}
