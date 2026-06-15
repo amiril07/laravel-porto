@@ -12,29 +12,29 @@
                     <div class="w-full md:w-3/5 text-center md:text-left space-y-6">
                         <div>
                             <h1 class="text-4xl md:text-5xl font-black text-slate-50 tracking-tight">
-                                Hi!, I'm <span class="text-sky-500">Amiril!</span>
+                                Hi!, I'm <span class="text-sky-500">{{ $profile->nama }}</span>
                             </h1>
                             <p class="text-lg md:text-xl font-semibold text-slate-400 mt-2">
-                                Software Engineer - POLMAN BABEL
+                                {{ $profile->bio }}
                             </p>
                         </div>
 
-                        <div class="pl-4 space-y-3 text-slate-300 text-base md:text-lg border-l-2 border-sky-500/50">
+                        <div class="pl-4 space-y-3 text-slate-300 text-base md:text-lg border-l-2 border-sky-500/50 text-left">
                             <p class="font-medium">
-                                <span class="text-slate-400 font-normal inline-block w-20">NIM</span> : 1062546
+                                <span class="text-slate-400 font-normal inline-block w-20">Email</span> : {{ $profile->email }}
                             </p>
                             <p class="font-medium">
-                                <span class="text-slate-400 font-normal inline-block w-20">Kelas</span> : 1 TRPL B
+                                <span class="text-slate-400 font-normal inline-block w-20">Phone</span> : {{ $profile->phone }}
                             </p>
                             <p class="font-medium">
-                                <span class="text-slate-400 font-normal inline-block w-20">Hobi</span> : Bermain Game
+                                <span class="text-slate-400 font-normal inline-block w-20">Address</span> : {{ $profile->address }}
                             </p>
                         </div>
                     </div>
 
                     <div class="w-full md:w-2/5 flex justify-center md:justify-end">
                         <div class="relative group">
-                            <img src="img/profil.jpeg" alt="Foto Profil" class="relative w-64 h-64 md:w-72 md:h-72 object-cover rounded-2xl border border-slate-600/30 shadow-lg">
+                            <img src="img/{{ $profile->avatar }}" alt="Foto Profil" class="relative w-64 h-64 md:w-72 md:h-72 object-cover rounded-2xl border border-slate-600/30 shadow-lg">
                         </div>
                     </div>
 
