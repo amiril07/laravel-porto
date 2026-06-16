@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Models\Post;
 use App\Models\Profile;
+use App\Models\Projects;
 use Illuminate\Support\Arr;
 
 Route::get('/', function () {
@@ -51,5 +52,12 @@ Route::get('/profil', function () {
     return view('profil', [
         'title' => 'Profil',
         'profile' => $profile
+    ]);
+});
+
+Route::get('/project', function () {
+    return view('project', [
+        'title' => 'Project',
+        'projects' => Projects::latest()->get()
     ]);
 });

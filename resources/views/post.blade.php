@@ -4,7 +4,7 @@
     <body class="h-full bg-gray-900">
 
     <main class="min-h-screen bg-slate-900 py-12 md:py-20">
-        <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             
             {{-- Tombol Kembali --}}
             <div class="mb-8">
@@ -17,7 +17,7 @@
             </div>
 
             {{-- Artikel Utama --}}
-            <article class="rounded-2xl border border-slate-800 bg-slate-800/30 p-6 md:p-10 shadow-2xl backdrop-blur-sm">
+            <article class="rounded-2xl border border-slate-800 bg-slate-800/30 p-6 md:p-10 backdrop-blur-sm">
                 
                 {{-- Bagian Judul Utama --}}
                 <header class="space-y-4 border-b border-slate-800 pb-6 mb-6">
